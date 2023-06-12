@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [AdvTestNg]" parallel="methods">
+  <test thread-count="3" name="parallel execution(failed)" parallel="methods">
+    <classes>
+      <class name="Assignments.PracticeXmlProgram">
+        <methods>
+          <include name="TestCaseThree"/>
+          <include name="TestCaseOne"/>
+          <include name="TestCaseTwo"/>
+        </methods>
+      </class> <!-- Assignments.PracticeXmlProgram -->
+    </classes>
+  </test> <!-- parallel execution(failed) -->
+</suite> <!-- Failed suite [AdvTestNg] -->

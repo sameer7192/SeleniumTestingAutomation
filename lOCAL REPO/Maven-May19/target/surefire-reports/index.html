@@ -1,0 +1,2898 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testNgPrograms">
+              <span class="suite-name border-failed">testNgPrograms</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testNgPrograms">
+                    <span>D:\software testing\AutomationWorkspace\Maven-May18\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testNgPrograms">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testNgPrograms">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testNgPrograms">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testNgPrograms">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testNgPrograms">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testNgPrograms">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">93 methods, 9 failed,  6 skipped,  78 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testNgPrograms" class="hide-methods failed suite-testNgPrograms"> (hide)</a> <!-- hide-methods failed suite-testNgPrograms -->
+                      <a href="#" panel-name="suite-testNgPrograms" class="show-methods failed suite-testNgPrograms"> (show)</a> <!-- show-methods failed suite-testNgPrograms -->
+                    </span>
+                    <div class="method-list-content failed suite-testNgPrograms">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Annotations2" hash-for-method="deleteTask">deleteTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.VtigerLogin" hash-for-method="loginInVtiger(, , )">loginInVtiger(, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.VtigerLogin" hash-for-method="loginInVtiger(firefox, admin3, @123)">loginInVtiger(firefox, admin3, @123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_Timeout" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_DependsOn" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GoogleApplicationWithBeforeAfterTest" hash-for-method="testGoogleLandingPage">testGoogleLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestParallelExecution" hash-for-method="testLoginOfActitime">testLoginOfActitime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GoogleApplicationWithBeforeAfter" hash-for-method="testReportsPage">testReportsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GoogleApplicationWithBeforeAfterTest" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testNgPrograms -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-testNgPrograms" class="hide-methods skipped suite-testNgPrograms"> (hide)</a> <!-- hide-methods skipped suite-testNgPrograms -->
+                      <a href="#" panel-name="suite-testNgPrograms" class="show-methods skipped suite-testNgPrograms"> (show)</a> <!-- show-methods skipped suite-testNgPrograms -->
+                    </span>
+                    <div class="method-list-content skipped suite-testNgPrograms">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_DependsOn" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.SuperNG" hash-for-method="startUp">startUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.VtigerApplicationTesting" hash-for-method="startUp">startUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.VtigerApplicationTesting" hash-for-method="testCalenderPage">testCalenderPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.VtigerApplicationTesting" hash-for-method="testLandingOfVtiger">testLandingOfVtiger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GoogleApplicationWithBeforeAfter" hash-for-method="testVtigerHomePage">testVtigerHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-testNgPrograms -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testNgPrograms" class="hide-methods passed suite-testNgPrograms"> (hide)</a> <!-- hide-methods passed suite-testNgPrograms -->
+                      <a href="#" panel-name="suite-testNgPrograms" class="show-methods passed suite-testNgPrograms"> (show)</a> <!-- show-methods passed suite-testNgPrograms -->
+                    </span>
+                    <div class="method-list-content passed suite-testNgPrograms">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample4" hash-for-method="a_signUp">a_signUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.IncludeAndExcludeTestMethods" hash-for-method="addDepartmentTestCase">addDepartmentTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.IncludeAndExcludeTestMethods" hash-for-method="addEmployeeTestCase">addEmployeeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.IncludeAndExcludeTestMethods" hash-for-method="addLocationTestCase">addLocationTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample4" hash-for-method="b_login">b_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample4" hash-for-method="c_compose">c_compose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample3" hash-for-method="compose">compose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_Priority" hash-for-method="createTask">createTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_Enabled" hash-for-method="createTask">createTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_DependsOn" hash-for-method="createTask">createTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Annotations3" hash-for-method="deleteTask">deleteTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_ExceptionAndTimeout" hash-for-method="dividedByZeroExample1">dividedByZeroExample1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_ExceptionAndTimeout" hash-for-method="executetimeOut">executetimeOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.AnnotationList" hash-for-method="f12">f12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.AnnotationList" hash-for-method="f5">f5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_Priority" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample3" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.VtigerLogin" hash-for-method="loginInVtiger(chrome, admin, Test@123)">loginInVtiger(chrome, admin, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_Priority" hash-for-method="logoutClose">logoutClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_DependsOn" hash-for-method="logoutClose">logoutClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_Enabled" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_Priority" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Actitime_InvocationCount" hash-for-method="openBrowserAndAppURL">openBrowserAndAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.DataProviderExample" hash-for-method="setData(guestuser3, pass123)">setData(guestuser3, pass123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.DataProviderExample" hash-for-method="setData(, )">setData(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.DataProviderExample" hash-for-method="setData(admin, admin)">setData(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample3" hash-for-method="signUp">signUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Annotations3" hash-for-method="taskCreation">taskCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Annotations" hash-for-method="taskCreation">taskCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Annotations2" hash-for-method="taskCreation">taskCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.FirstTestNgWebScript" hash-for-method="testCase1">testCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample2" hash-for-method="testCase1">testCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.ClassLabelAnnotations" hash-for-method="testCase1">testCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample1" hash-for-method="testCase1">testCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.ClassLabelAnnotations" hash-for-method="testCase2">testCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample2" hash-for-method="testCase2">testCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.Sample2" hash-for-method="testCase3">testCase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.ClassLabelAnnotations" hash-for-method="testCase3">testCase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.ClassLabelAnnotations" hash-for-method="testCase4">testCase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestCaseExecutionControl" hash-for-method="testCaseCreation">testCaseCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.SetTestCaseOrder_Priority" hash-for-method="testCaseCreation">testCaseCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.MultipleTestMethodInClass" hash-for-method="testCaseCreation">testCaseCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.SetTestCaseOrder_Priority" hash-for-method="testCaseDeletion">testCaseDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.MultipleTestMethodInClass" hash-for-method="testCaseDeletion">testCaseDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GroupExamples" hash-for-method="testCaseFive">testCaseFive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GroupExamples" hash-for-method="testCaseFour">testCaseFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestCaseExecutionControl" hash-for-method="testCaseLogin">testCaseLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.MultipleTestMethodInClass" hash-for-method="testCaseLogin">testCaseLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.SetTestCaseOrder_Priority" hash-for-method="testCaseLogin">testCaseLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestParallelClassOne" hash-for-method="testCaseOne">testCaseOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestParallelClassTwo" hash-for-method="testCaseOne">testCaseOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GroupExamples" hash-for-method="testCaseOne">testCaseOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.ParallelExecutionOfMethods" hash-for-method="testCaseOne">testCaseOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.SetTestCaseOrder_Priority" hash-for-method="testCaseSignup">testCaseSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.MultipleTestMethodInClass" hash-for-method="testCaseSignup">testCaseSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestCaseExecutionControl" hash-for-method="testCaseSignup">testCaseSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GroupExamples" hash-for-method="testCaseThree">testCaseThree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestParallelClassOne" hash-for-method="testCaseTwo">testCaseTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GroupExamples" hash-for-method="testCaseTwo">testCaseTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.ParallelExecutionOfMethods" hash-for-method="testCaseTwo">testCaseTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestParallelClassTwo" hash-for-method="testCaseTwo">testCaseTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GoogleApplicationWithBeforeAfterMethod" hash-for-method="testGoogleLandingPage">testGoogleLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestCaseDependency" hash-for-method="testGoogleLandingPage">testGoogleLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.DataProviderExample" hash-for-method="testLoginOfVtiger(chrome, admin, Test@123)">testLoginOfVtiger(chrome, admin, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.DataProviderExample" hash-for-method="testLoginOfVtiger(chrome, , )">testLoginOfVtiger(chrome, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestParallelExecution" hash-for-method="testLoginOfVtiger">testLoginOfVtiger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.DataProviderExample" hash-for-method="testLoginOfVtiger(chrome, pass123, admin)">testLoginOfVtiger(chrome, pass123, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.GoogleApplicationWithBeforeAfterMethod" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNgPrograms" title="testNgPrograms.TestCaseDependency" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testNgPrograms -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testNgPrograms" class="panel testNgPrograms">
+          <div class="suite-testNgPrograms-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNgPrograms.Actitime_DependsOn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                  <div class="stack-trace">java.lang.ArithmeticException: / by zero
+	at testNgPrograms.Actitime_DependsOn.openBrowserAndAppURL(Actitime_DependsOn.java:8)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-failed -->
+          <div class="suite-testNgPrograms-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNgPrograms.Annotations2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTask">
+                  </a> <!-- deleteTask -->
+                  <span class="method-name">deleteTask</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : There is an open task with the same name in the selected project. Please re-name this task.}
+  (Session info: chrome=110.0.5481.177): There is an open task with the same name in the selected project. Please re-name this task.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SAMEER&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a2cbef0639d0bc31a6c95de858af18f
+*** Element info: {Using=xpath, value=//div[@class=&apos;taskRowsTableContent&apos;]/div/div/table/tbody/tr/td/div/div[@class=&apos;img&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at testNgPrograms.Annotations2.deleteTask(Annotations2.java:47)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-failed -->
+          <div class="suite-testNgPrograms-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNgPrograms.VtigerLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInVtiger(, , )">
+                  </a> <!-- loginInVtiger(, , ) -->
+                  <span class="method-name">loginInVtiger</span>
+                  <span class="parameters">(, , )</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SAMEER&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0c3549c6a0c9eafdb4491a97f447801
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:833)
+	at mavenUtilities.SeleniumUtility.setUp(SeleniumUtility.java:58)
+	at testNgPrograms.VtigerLogin.loginInVtiger(VtigerLogin.java:40)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInVtiger(firefox, admin3, @123)">
+                  </a> <!-- loginInVtiger(firefox, admin3, @123) -->
+                  <span class="method-name">loginInVtiger</span>
+                  <span class="parameters">(firefox, admin3, @123)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SAMEER&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:116)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at mavenUtilities.SeleniumUtility.setUp(SeleniumUtility.java:53)
+	at testNgPrograms.VtigerLogin.loginInVtiger(VtigerLogin.java:40)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-failed -->
+          <div class="suite-testNgPrograms-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNgPrograms.GoogleApplicationWithBeforeAfterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoogleLandingPage">
+                  </a> <!-- testGoogleLandingPage -->
+                  <span class="method-name">testGoogleLandingPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SAMEER&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 887bcb95cf26b466d00c79334a16afd7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+	at mavenUtilities.SeleniumUtility.getCurrentTitleOfApplication(SeleniumUtility.java:114)
+	at testNgPrograms.GoogleApplicationWithBeforeAfterTest.testGoogleLandingPage(GoogleApplicationWithBeforeAfterTest.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch">
+                  </a> <!-- testSearch -->
+                  <span class="method-name">testSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SAMEER&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 887bcb95cf26b466d00c79334a16afd7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.activeElement(RemoteWebDriver.java:923)
+	at mavenUtilities.SeleniumUtility.getActiveWebElement(SeleniumUtility.java:119)
+	at testNgPrograms.GoogleApplicationWithBeforeAfterTest.testSearch(GoogleApplicationWithBeforeAfterTest.java:35)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-failed -->
+          <div class="suite-testNgPrograms-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNgPrograms.GoogleApplicationWithBeforeAfter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReportsPage">
+                  </a> <!-- testReportsPage -->
+                  <span class="method-name">testReportsPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SAMEER&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 887bcb95cf26b466d00c79334a16afd7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+	at mavenUtilities.SeleniumUtility.getCurrentTitleOfApplication(SeleniumUtility.java:114)
+	at testNgPrograms.GoogleApplicationWithBeforeAfter.testReportsPage(GoogleApplicationWithBeforeAfter.java:41)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-failed -->
+          <div class="suite-testNgPrograms-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNgPrograms.Actitime_Timeout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.openBrowserAndAppURL() didn&apos;t finish within the time-out 200
+	at java.lang.Thread.sleep(Native Method)
+	at testNgPrograms.Actitime_Timeout.openBrowserAndAppURL(Actitime_Timeout.java:10)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-failed -->
+          <div class="suite-testNgPrograms-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNgPrograms.TestParallelExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginOfActitime">
+                  </a> <!-- testLoginOfActitime -->
+                  <span class="method-name">testLoginOfActitime</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 290.895
+  (Session info: chrome=110.0.5481.177)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SAMEER&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa766a9cf7c37469e68f27b5266b31f8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at testNgPrograms.TestParallelExecution.testLoginOfActitime(TestParallelExecution.java:42)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-failed -->
+          <div class="suite-testNgPrograms-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNgPrograms.Actitime_DependsOn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Actitime_DependsOn.login()[pri:0, instance:testNgPrograms.Actitime_DependsOn@2bbf180e] depends on not successfully finished methods
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-skipped -->
+          <div class="suite-testNgPrograms-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNgPrograms.VtigerApplicationTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="startUp">
+                  </a> <!-- startUp -->
+                  <span class="method-name">startUp</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method startUp requires 2 parameters but 0 were supplied in the @Test annotation.
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalenderPage">
+                  </a> <!-- testCalenderPage -->
+                  <span class="method-name">testCalenderPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLandingOfVtiger">
+                  </a> <!-- testLandingOfVtiger -->
+                  <span class="method-name">testLandingOfVtiger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-skipped -->
+          <div class="suite-testNgPrograms-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNgPrograms.GoogleApplicationWithBeforeAfter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVtigerHomePage">
+                  </a> <!-- testVtigerHomePage -->
+                  <span class="method-name">testVtigerHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-skipped -->
+          <div class="suite-testNgPrograms-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNgPrograms.SuperNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="startUp">
+                  </a> <!-- startUp -->
+                  <span class="method-name">startUp</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method startUp requires 2 parameters but 0 were supplied in the @Test annotation.
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-skipped -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Sample3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compose">
+                  </a> <!-- compose -->
+                  <span class="method-name">compose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUp">
+                  </a> <!-- signUp -->
+                  <span class="method-name">signUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.GroupExamples</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseFive">
+                  </a> <!-- testCaseFive -->
+                  <span class="method-name">testCaseFive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseFour">
+                  </a> <!-- testCaseFour -->
+                  <span class="method-name">testCaseFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseOne">
+                  </a> <!-- testCaseOne -->
+                  <span class="method-name">testCaseOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseThree">
+                  </a> <!-- testCaseThree -->
+                  <span class="method-name">testCaseThree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseTwo">
+                  </a> <!-- testCaseTwo -->
+                  <span class="method-name">testCaseTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Actitime_ExceptionAndTimeout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dividedByZeroExample1">
+                  </a> <!-- dividedByZeroExample1 -->
+                  <span class="method-name">dividedByZeroExample1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executetimeOut">
+                  </a> <!-- executetimeOut -->
+                  <span class="method-name">executetimeOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.TestParallelClassOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseOne">
+                  </a> <!-- testCaseOne -->
+                  <span class="method-name">testCaseOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseTwo">
+                  </a> <!-- testCaseTwo -->
+                  <span class="method-name">testCaseTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.TestParallelExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginOfVtiger">
+                  </a> <!-- testLoginOfVtiger -->
+                  <span class="method-name">testLoginOfVtiger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.IncludeAndExcludeTestMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDepartmentTestCase">
+                  </a> <!-- addDepartmentTestCase -->
+                  <span class="method-name">addDepartmentTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployeeTestCase">
+                  </a> <!-- addEmployeeTestCase -->
+                  <span class="method-name">addEmployeeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addLocationTestCase">
+                  </a> <!-- addLocationTestCase -->
+                  <span class="method-name">addLocationTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.FirstTestNgWebScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase1">
+                  </a> <!-- testCase1 -->
+                  <span class="method-name">testCase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.DataProviderExample</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setData(guestuser3, pass123)">
+                  </a> <!-- setData(guestuser3, pass123) -->
+                  <span class="method-name">setData</span>
+                  <span class="parameters">(guestuser3, pass123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setData(, )">
+                  </a> <!-- setData(, ) -->
+                  <span class="method-name">setData</span>
+                  <span class="parameters">(, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setData(admin, admin)">
+                  </a> <!-- setData(admin, admin) -->
+                  <span class="method-name">setData</span>
+                  <span class="parameters">(admin, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginOfVtiger(chrome, admin, Test@123)">
+                  </a> <!-- testLoginOfVtiger(chrome, admin, Test@123) -->
+                  <span class="method-name">testLoginOfVtiger</span>
+                  <span class="parameters">(chrome, admin, Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginOfVtiger(chrome, , )">
+                  </a> <!-- testLoginOfVtiger(chrome, , ) -->
+                  <span class="method-name">testLoginOfVtiger</span>
+                  <span class="parameters">(chrome, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginOfVtiger(chrome, pass123, admin)">
+                  </a> <!-- testLoginOfVtiger(chrome, pass123, admin) -->
+                  <span class="method-name">testLoginOfVtiger</span>
+                  <span class="parameters">(chrome, pass123, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Actitime_InvocationCount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.AnnotationList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f12">
+                  </a> <!-- f12 -->
+                  <span class="method-name">f12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f5">
+                  </a> <!-- f5 -->
+                  <span class="method-name">f5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Annotations2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskCreation">
+                  </a> <!-- taskCreation -->
+                  <span class="method-name">taskCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.VtigerLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInVtiger(chrome, admin, Test@123)">
+                  </a> <!-- loginInVtiger(chrome, admin, Test@123) -->
+                  <span class="method-name">loginInVtiger</span>
+                  <span class="parameters">(chrome, admin, Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Actitime_Priority</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTask">
+                  </a> <!-- createTask -->
+                  <span class="method-name">createTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutClose">
+                  </a> <!-- logoutClose -->
+                  <span class="method-name">logoutClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                  <em>
+(Open browser and enter URL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.MultipleTestMethodInClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseCreation">
+                  </a> <!-- testCaseCreation -->
+                  <span class="method-name">testCaseCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseDeletion">
+                  </a> <!-- testCaseDeletion -->
+                  <span class="method-name">testCaseDeletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseLogin">
+                  </a> <!-- testCaseLogin -->
+                  <span class="method-name">testCaseLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSignup">
+                  </a> <!-- testCaseSignup -->
+                  <span class="method-name">testCaseSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Sample1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase1">
+                  </a> <!-- testCase1 -->
+                  <span class="method-name">testCase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Actitime_Enabled</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTask">
+                  </a> <!-- createTask -->
+                  <span class="method-name">createTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowserAndAppURL">
+                  </a> <!-- openBrowserAndAppURL -->
+                  <span class="method-name">openBrowserAndAppURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.GoogleApplicationWithBeforeAfterMethod</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoogleLandingPage">
+                  </a> <!-- testGoogleLandingPage -->
+                  <span class="method-name">testGoogleLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch">
+                  </a> <!-- testSearch -->
+                  <span class="method-name">testSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.SetTestCaseOrder_Priority</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseCreation">
+                  </a> <!-- testCaseCreation -->
+                  <span class="method-name">testCaseCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseDeletion">
+                  </a> <!-- testCaseDeletion -->
+                  <span class="method-name">testCaseDeletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseLogin">
+                  </a> <!-- testCaseLogin -->
+                  <span class="method-name">testCaseLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSignup">
+                  </a> <!-- testCaseSignup -->
+                  <span class="method-name">testCaseSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.ClassLabelAnnotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase1">
+                  </a> <!-- testCase1 -->
+                  <span class="method-name">testCase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase2">
+                  </a> <!-- testCase2 -->
+                  <span class="method-name">testCase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase3">
+                  </a> <!-- testCase3 -->
+                  <span class="method-name">testCase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase4">
+                  </a> <!-- testCase4 -->
+                  <span class="method-name">testCase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Annotations3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTask">
+                  </a> <!-- deleteTask -->
+                  <span class="method-name">deleteTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskCreation">
+                  </a> <!-- taskCreation -->
+                  <span class="method-name">taskCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Actitime_DependsOn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTask">
+                  </a> <!-- createTask -->
+                  <span class="method-name">createTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutClose">
+                  </a> <!-- logoutClose -->
+                  <span class="method-name">logoutClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Sample4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_signUp">
+                  </a> <!-- a_signUp -->
+                  <span class="method-name">a_signUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b_login">
+                  </a> <!-- b_login -->
+                  <span class="method-name">b_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="c_compose">
+                  </a> <!-- c_compose -->
+                  <span class="method-name">c_compose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.TestCaseDependency</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoogleLandingPage">
+                  </a> <!-- testGoogleLandingPage -->
+                  <span class="method-name">testGoogleLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch">
+                  </a> <!-- testSearch -->
+                  <span class="method-name">testSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.ParallelExecutionOfMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseOne">
+                  </a> <!-- testCaseOne -->
+                  <span class="method-name">testCaseOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseTwo">
+                  </a> <!-- testCaseTwo -->
+                  <span class="method-name">testCaseTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Annotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskCreation">
+                  </a> <!-- taskCreation -->
+                  <span class="method-name">taskCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.Sample2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase1">
+                  </a> <!-- testCase1 -->
+                  <span class="method-name">testCase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase2">
+                  </a> <!-- testCase2 -->
+                  <span class="method-name">testCase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase3">
+                  </a> <!-- testCase3 -->
+                  <span class="method-name">testCase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.TestCaseExecutionControl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseCreation">
+                  </a> <!-- testCaseCreation -->
+                  <span class="method-name">testCaseCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseLogin">
+                  </a> <!-- testCaseLogin -->
+                  <span class="method-name">testCaseLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSignup">
+                  </a> <!-- testCaseSignup -->
+                  <span class="method-name">testCaseSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+          <div class="suite-testNgPrograms-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgPrograms.TestParallelClassTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseOne">
+                  </a> <!-- testCaseOne -->
+                  <span class="method-name">testCaseOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseTwo">
+                  </a> <!-- testCaseTwo -->
+                  <span class="method-name">testCaseTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNgPrograms-class-passed -->
+        </div> <!-- panel testNgPrograms -->
+        <div panel-name="test-xml-testNgPrograms" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\software testing\AutomationWorkspace\Maven-May18\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;testNgPrograms&quot; parallel=&quot;none&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testNgPrograms&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNgPrograms.AnnotationList&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.TestParallelClassOne&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Sample4&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.SetTestCaseOrder_Priority&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Sample3&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Sample2&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Sample1&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Actitime_Enabled&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Actitime_Timeout&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.TestCaseExecutionControl&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Actitime_ExceptionAndTimeout&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.VtigerApplicationTesting&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.TestParallelClassTwo&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.TestParallelExecution&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.IncludeAndExcludeTestMethods&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Actitime_DependsOn&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.SuperNG&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.VtigerLogin&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.FirstTestNgWebScript&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.DataProviderExample&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.TestCaseDependency&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.GoogleApplicationWithBeforeAfterMethod&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Actitime_InvocationCount&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.ClassLabelAnnotations&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.GoogleApplicationWithBeforeAfterTest&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Annotations&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.GoogleApplicationWithBeforeAfter&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Actitime_Priority&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.GroupExamples&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.ParallelExecutionOfMethods&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.MultipleTestMethodInClass&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Annotations2&quot;/&gt;
+      &lt;class name=&quot;testNgPrograms.Annotations3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testNgPrograms --&gt;
+&lt;/suite&gt; &lt;!-- testNgPrograms --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testNgPrograms" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testNgPrograms</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testNgPrograms (33 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testNgPrograms" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testNgPrograms</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseFour</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseOne</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseTwo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseFive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseThree</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testNgPrograms" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testNgPrograms</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testNgPrograms');
+function tableData_testNgPrograms() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(93);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoginOfActitime')
+data.setCell(0, 2, 'testNgPrograms.TestParallelExecution')
+data.setCell(0, 3, 303936);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'taskCreation')
+data.setCell(1, 2, 'testNgPrograms.Annotations2')
+data.setCell(1, 3, 18962);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginOfVtiger')
+data.setCell(2, 2, 'testNgPrograms.TestParallelExecution')
+data.setCell(2, 3, 11187);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearch')
+data.setCell(3, 2, 'testNgPrograms.GoogleApplicationWithBeforeAfterMethod')
+data.setCell(3, 3, 7234);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginOfVtiger')
+data.setCell(4, 2, 'testNgPrograms.DataProviderExample')
+data.setCell(4, 3, 6907);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginInVtiger')
+data.setCell(5, 2, 'testNgPrograms.VtigerLogin')
+data.setCell(5, 3, 5866);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginOfVtiger')
+data.setCell(6, 2, 'testNgPrograms.DataProviderExample')
+data.setCell(6, 3, 5345);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLoginOfVtiger')
+data.setCell(7, 2, 'testNgPrograms.DataProviderExample')
+data.setCell(7, 3, 5073);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSearch')
+data.setCell(8, 2, 'testNgPrograms.TestCaseDependency')
+data.setCell(8, 3, 3952);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCase1')
+data.setCell(9, 2, 'testNgPrograms.FirstTestNgWebScript')
+data.setCell(9, 3, 3460);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testReportsPage')
+data.setCell(10, 2, 'testNgPrograms.GoogleApplicationWithBeforeAfter')
+data.setCell(10, 3, 2330);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginInVtiger')
+data.setCell(11, 2, 'testNgPrograms.VtigerLogin')
+data.setCell(11, 3, 1308);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'executetimeOut')
+data.setCell(12, 2, 'testNgPrograms.Actitime_ExceptionAndTimeout')
+data.setCell(12, 3, 544);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'openBrowserAndAppURL')
+data.setCell(13, 2, 'testNgPrograms.Actitime_Timeout')
+data.setCell(13, 3, 211);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGoogleLandingPage')
+data.setCell(14, 2, 'testNgPrograms.GoogleApplicationWithBeforeAfterTest')
+data.setCell(14, 3, 86);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGoogleLandingPage')
+data.setCell(15, 2, 'testNgPrograms.TestCaseDependency')
+data.setCell(15, 3, 21);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'deleteTask')
+data.setCell(16, 2, 'testNgPrograms.Annotations2')
+data.setCell(16, 3, 15);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginInVtiger')
+data.setCell(17, 2, 'testNgPrograms.VtigerLogin')
+data.setCell(17, 3, 9);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGoogleLandingPage')
+data.setCell(18, 2, 'testNgPrograms.GoogleApplicationWithBeforeAfterMethod')
+data.setCell(18, 3, 5);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSearch')
+data.setCell(19, 2, 'testNgPrograms.GoogleApplicationWithBeforeAfterTest')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'logoutClose')
+data.setCell(20, 2, 'testNgPrograms.Actitime_Priority')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCaseTwo')
+data.setCell(21, 2, 'testNgPrograms.ParallelExecutionOfMethods')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'f12')
+data.setCell(22, 2, 'testNgPrograms.AnnotationList')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCaseSignup')
+data.setCell(23, 2, 'testNgPrograms.MultipleTestMethodInClass')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCaseSignup')
+data.setCell(24, 2, 'testNgPrograms.TestCaseExecutionControl')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'b_login')
+data.setCell(25, 2, 'testNgPrograms.Sample4')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'openBrowserAndAppURL')
+data.setCell(26, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'dividedByZeroExample1')
+data.setCell(27, 2, 'testNgPrograms.Actitime_ExceptionAndTimeout')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCase3')
+data.setCell(28, 2, 'testNgPrograms.ClassLabelAnnotations')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testLandingOfVtiger')
+data.setCell(29, 2, 'testNgPrograms.VtigerApplicationTesting')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'openBrowserAndAppURL')
+data.setCell(30, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testCaseSignup')
+data.setCell(31, 2, 'testNgPrograms.SetTestCaseOrder_Priority')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'taskCreation')
+data.setCell(32, 2, 'testNgPrograms.Annotations3')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testCase4')
+data.setCell(33, 2, 'testNgPrograms.ClassLabelAnnotations')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCaseTwo')
+data.setCell(34, 2, 'testNgPrograms.TestParallelClassOne')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCase3')
+data.setCell(35, 2, 'testNgPrograms.Sample2')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'addLocationTestCase')
+data.setCell(36, 2, 'testNgPrograms.IncludeAndExcludeTestMethods')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'createTask')
+data.setCell(37, 2, 'testNgPrograms.Actitime_Priority')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'openBrowserAndAppURL')
+data.setCell(38, 2, 'testNgPrograms.Actitime_Enabled')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'login')
+data.setCell(39, 2, 'testNgPrograms.Actitime_Priority')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'a_signUp')
+data.setCell(40, 2, 'testNgPrograms.Sample4')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'openBrowserAndAppURL')
+data.setCell(41, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'setData')
+data.setCell(42, 2, 'testNgPrograms.DataProviderExample')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testCaseDeletion')
+data.setCell(43, 2, 'testNgPrograms.SetTestCaseOrder_Priority')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testCaseLogin')
+data.setCell(44, 2, 'testNgPrograms.TestCaseExecutionControl')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testCaseTwo')
+data.setCell(45, 2, 'testNgPrograms.GroupExamples')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testCaseOne')
+data.setCell(46, 2, 'testNgPrograms.TestParallelClassOne')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'deleteTask')
+data.setCell(47, 2, 'testNgPrograms.Annotations3')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testCaseFour')
+data.setCell(48, 2, 'testNgPrograms.GroupExamples')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testCase1')
+data.setCell(49, 2, 'testNgPrograms.Sample2')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'taskCreation')
+data.setCell(50, 2, 'testNgPrograms.Annotations')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testCaseCreation')
+data.setCell(51, 2, 'testNgPrograms.TestCaseExecutionControl')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'logoutClose')
+data.setCell(52, 2, 'testNgPrograms.Actitime_DependsOn')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testCaseFive')
+data.setCell(53, 2, 'testNgPrograms.GroupExamples')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testCaseOne')
+data.setCell(54, 2, 'testNgPrograms.TestParallelClassTwo')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testCaseCreation')
+data.setCell(55, 2, 'testNgPrograms.SetTestCaseOrder_Priority')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'c_compose')
+data.setCell(56, 2, 'testNgPrograms.Sample4')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'openBrowserAndAppURL')
+data.setCell(57, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testCaseLogin')
+data.setCell(58, 2, 'testNgPrograms.MultipleTestMethodInClass')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testCaseThree')
+data.setCell(59, 2, 'testNgPrograms.GroupExamples')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testCaseLogin')
+data.setCell(60, 2, 'testNgPrograms.SetTestCaseOrder_Priority')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'f5')
+data.setCell(61, 2, 'testNgPrograms.AnnotationList')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testCaseOne')
+data.setCell(62, 2, 'testNgPrograms.GroupExamples')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testCase1')
+data.setCell(63, 2, 'testNgPrograms.ClassLabelAnnotations')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testCase2')
+data.setCell(64, 2, 'testNgPrograms.ClassLabelAnnotations')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'openBrowserAndAppURL')
+data.setCell(65, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testCase1')
+data.setCell(66, 2, 'testNgPrograms.Sample1')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testCaseCreation')
+data.setCell(67, 2, 'testNgPrograms.MultipleTestMethodInClass')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'setData')
+data.setCell(68, 2, 'testNgPrograms.DataProviderExample')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'signUp')
+data.setCell(69, 2, 'testNgPrograms.Sample3')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'createTask')
+data.setCell(70, 2, 'testNgPrograms.Actitime_Enabled')
+data.setCell(70, 3, 0);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'addDepartmentTestCase')
+data.setCell(71, 2, 'testNgPrograms.IncludeAndExcludeTestMethods')
+data.setCell(71, 3, 0);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'openBrowserAndAppURL')
+data.setCell(72, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(72, 3, 0);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'openBrowserAndAppURL')
+data.setCell(73, 2, 'testNgPrograms.Actitime_Priority')
+data.setCell(73, 3, 0);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'openBrowserAndAppURL')
+data.setCell(74, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(74, 3, 0);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'testCaseTwo')
+data.setCell(75, 2, 'testNgPrograms.TestParallelClassTwo')
+data.setCell(75, 3, 0);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'createTask')
+data.setCell(76, 2, 'testNgPrograms.Actitime_DependsOn')
+data.setCell(76, 3, 0);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'login')
+data.setCell(77, 2, 'testNgPrograms.Sample3')
+data.setCell(77, 3, 0);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'testCase2')
+data.setCell(78, 2, 'testNgPrograms.Sample2')
+data.setCell(78, 3, 0);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'addEmployeeTestCase')
+data.setCell(79, 2, 'testNgPrograms.IncludeAndExcludeTestMethods')
+data.setCell(79, 3, 0);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'testCaseDeletion')
+data.setCell(80, 2, 'testNgPrograms.MultipleTestMethodInClass')
+data.setCell(80, 3, 0);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'testCaseOne')
+data.setCell(81, 2, 'testNgPrograms.ParallelExecutionOfMethods')
+data.setCell(81, 3, 0);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'setData')
+data.setCell(82, 2, 'testNgPrograms.DataProviderExample')
+data.setCell(82, 3, 0);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'compose')
+data.setCell(83, 2, 'testNgPrograms.Sample3')
+data.setCell(83, 3, 0);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'openBrowserAndAppURL')
+data.setCell(84, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(84, 3, 0);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'openBrowserAndAppURL')
+data.setCell(85, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(85, 3, 0);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'openBrowserAndAppURL')
+data.setCell(86, 2, 'testNgPrograms.Actitime_InvocationCount')
+data.setCell(86, 3, 0);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'openBrowserAndAppURL')
+data.setCell(87, 2, 'testNgPrograms.Actitime_DependsOn')
+data.setCell(87, 3, 0);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'startUp')
+data.setCell(88, 2, 'testNgPrograms.SuperNG')
+data.setCell(88, 3, 0);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'login')
+data.setCell(89, 2, 'testNgPrograms.Actitime_DependsOn')
+data.setCell(89, 3, 0);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'testVtigerHomePage')
+data.setCell(90, 2, 'testNgPrograms.GoogleApplicationWithBeforeAfter')
+data.setCell(90, 3, 0);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'testCalenderPage')
+data.setCell(91, 2, 'testNgPrograms.VtigerApplicationTesting')
+data.setCell(91, 3, 0);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'startUp')
+data.setCell(92, 2, 'testNgPrograms.VtigerApplicationTesting')
+data.setCell(92, 3, 0);
+window.suiteTableData['testNgPrograms']= { tableData: data, tableDiv: 'times-div-testNgPrograms'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-testNgPrograms">
+              </div> <!-- times-div-testNgPrograms -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testNgPrograms" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testNgPrograms</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testNgPrograms" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNgPrograms.TestCaseExecutionControl</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testCaseDeletion</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNgPrograms.Actitime_Enabled</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">login</span>
+                <br/>
+                <span class="ignored-method-name">logoutClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testNgPrograms" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.AnnotationList</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">f1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">f2</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.GoogleApplicationWithBeforeAfter</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">12505 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.GoogleApplicationWithBeforeAfterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">18351 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestCaseDependency</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">21818 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.AnnotationList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">f3</span>
+                <span class="method-start">27399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">f4</span>
+                <span class="method-start">27405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">f12</span>
+                <span class="method-start">27405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">f9</span>
+                <span class="method-start">27407 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">f4</span>
+                <span class="method-start">27408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">f5</span>
+                <span class="method-start">27408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">f9</span>
+                <span class="method-start">27408 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">f8</span>
+                <span class="method-start">27408 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestParallelClassOne</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseTwo</span>
+                <span class="method-start">27409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseOne</span>
+                <span class="method-start">27409 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Sample4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">c_compose</span>
+                <span class="method-start">27409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b_login</span>
+                <span class="method-start">27409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">a_signUp</span>
+                <span class="method-start">27410 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Sample3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">27410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUp</span>
+                <span class="method-start">27410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">compose</span>
+                <span class="method-start">27411 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Sample2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase1</span>
+                <span class="method-start">27411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase2</span>
+                <span class="method-start">27411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase3</span>
+                <span class="method-start">27411 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Sample1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase1</span>
+                <span class="method-start">27412 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_Enabled</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">27412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createTask</span>
+                <span class="method-start">27413 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_Timeout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">27413 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestCaseExecutionControl</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseSignup</span>
+                <span class="method-start">27638 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_ExceptionAndTimeout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dividedByZeroExample1</span>
+                <span class="method-start">27639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executetimeOut</span>
+                <span class="method-start">27640 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.VtigerApplicationTesting</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">28184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLandingOfVtiger</span>
+                <span class="method-start">28249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCalenderPage</span>
+                <span class="method-start">28251 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestParallelClassTwo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseOne</span>
+                <span class="method-start">28252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseTwo</span>
+                <span class="method-start">28252 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestParallelExecution</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginOfVtiger</span>
+                <span class="method-start">28252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginOfActitime</span>
+                <span class="method-start">39439 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.IncludeAndExcludeTestMethods</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addDepartmentTestCase</span>
+                <span class="method-start">343378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addEmployeeTestCase</span>
+                <span class="method-start">343378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addLocationTestCase</span>
+                <span class="method-start">343378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_DependsOn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createTask</span>
+                <span class="method-start">343378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">343378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutClose</span>
+                <span class="method-start">343379 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.VtigerLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginInVtiger(chrome, admin, Test@123)</span>
+                <span class="method-start">343391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginInVtiger(firefox, admin3, @123)</span>
+                <span class="method-start">349257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginInVtiger(, , )</span>
+                <span class="method-start">350569 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.FirstTestNgWebScript</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase1</span>
+                <span class="method-start">350584 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.DataProviderExample</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setData(admin, admin)</span>
+                <span class="method-start">354045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setData(, )</span>
+                <span class="method-start">354045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setData(guestuser3, pass123)</span>
+                <span class="method-start">354045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginOfVtiger(chrome, admin, Test@123)</span>
+                <span class="method-start">354045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginOfVtiger(chrome, pass123, admin)</span>
+                <span class="method-start">359391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginOfVtiger(chrome, , )</span>
+                <span class="method-start">366298 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestCaseDependency</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGoogleLandingPage</span>
+                <span class="method-start">371372 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.GoogleApplicationWithBeforeAfterMethod</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">371393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGoogleLandingPage</span>
+                <span class="method-start">376036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">376041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">376185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearch</span>
+                <span class="method-start">384286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">391521 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_InvocationCount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">391657 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.ClassLabelAnnotations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase1</span>
+                <span class="method-start">391661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase2</span>
+                <span class="method-start">391661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase3</span>
+                <span class="method-start">391661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase4</span>
+                <span class="method-start">391662 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.GoogleApplicationWithBeforeAfterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGoogleLandingPage</span>
+                <span class="method-start">391662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearch</span>
+                <span class="method-start">391749 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">taskCreation</span>
+                <span class="method-start">391753 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.GoogleApplicationWithBeforeAfter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">391754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testReportsPage</span>
+                <span class="method-start">396684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logout</span>
+                <span class="method-start">399016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testVtigerHomePage</span>
+                <span class="method-start">419072 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.GroupExamples</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseFive</span>
+                <span class="method-start">419074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseFour</span>
+                <span class="method-start">419075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseOne</span>
+                <span class="method-start">419075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseThree</span>
+                <span class="method-start">419075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseTwo</span>
+                <span class="method-start">419076 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.ParallelExecutionOfMethods</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseOne</span>
+                <span class="method-start">419076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseTwo</span>
+                <span class="method-start">419076 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.MultipleTestMethodInClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseCreation</span>
+                <span class="method-start">419077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseDeletion</span>
+                <span class="method-start">419077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseLogin</span>
+                <span class="method-start">419077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseSignup</span>
+                <span class="method-start">419077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.SetTestCaseOrder_Priority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseSignup</span>
+                <span class="method-start">419079 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestCaseExecutionControl</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseLogin</span>
+                <span class="method-start">419080 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_Priority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openBrowserAndAppURL</span>
+                <span class="method-start">419080 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">taskCreation</span>
+                <span class="method-start">419080 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">438043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">taskCreation</span>
+                <span class="method-start">438046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">438047 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.SetTestCaseOrder_Priority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseLogin</span>
+                <span class="method-start">438047 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_Priority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">438048 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteTask</span>
+                <span class="method-start">438048 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">438065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteTask</span>
+                <span class="method-start">438065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">438065 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.SetTestCaseOrder_Priority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseDeletion</span>
+                <span class="method-start">438065 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Actitime_Priority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createTask</span>
+                <span class="method-start">438065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutClose</span>
+                <span class="method-start">438065 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.SetTestCaseOrder_Priority</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseCreation</span>
+                <span class="method-start">438066 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestCaseExecutionControl</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCaseCreation</span>
+                <span class="method-start">438066 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.TestCaseDependency</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSearch</span>
+                <span class="method-start">438074 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.AnnotationList</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">f7</span>
+                <span class="method-start">442027 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">442027 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgPrograms.Annotations2</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">442027 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

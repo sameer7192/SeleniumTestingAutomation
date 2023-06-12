@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AdvTestNg" parallel="methods" thread-count="3"> 
+	<test name="parallel execution">
+		<classes>
+			<class name="Assignments.PracticeXmlProgram" />	
+		</classes>
+	</test>
+</suite>

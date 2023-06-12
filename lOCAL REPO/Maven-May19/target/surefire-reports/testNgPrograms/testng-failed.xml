@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [testNgPrograms]" parallel="none">
+  <test name="testNgPrograms(failed)" parallel="none">
+    <classes>
+      <class name="testNgPrograms.Annotations2">
+        <methods>
+          <include name="deleteTask"/>
+          <include name="startUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testNgPrograms.Annotations2 -->
+      <class name="testNgPrograms.GoogleApplicationWithBeforeAfterTest">
+        <methods>
+          <include name="testSearch"/>
+          <include name="testGoogleLandingPage"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testNgPrograms.GoogleApplicationWithBeforeAfterTest -->
+      <class name="testNgPrograms.VtigerLogin">
+        <methods>
+          <include name="loginInVtiger" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- testNgPrograms.VtigerLogin -->
+      <class name="testNgPrograms.VtigerApplicationTesting">
+        <methods>
+          <include name="testCalenderPage"/>
+          <include name="startUp"/>
+          <include name="testLandingOfVtiger"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNgPrograms.VtigerApplicationTesting -->
+      <class name="testNgPrograms.Actitime_Timeout">
+        <methods>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- testNgPrograms.Actitime_Timeout -->
+      <class name="testNgPrograms.GoogleApplicationWithBeforeAfterMethod">
+        <methods>
+          <include name="startUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testNgPrograms.GoogleApplicationWithBeforeAfterMethod -->
+      <class name="testNgPrograms.TestParallelExecution">
+        <methods>
+          <include name="testLoginOfActitime"/>
+        </methods>
+      </class> <!-- testNgPrograms.TestParallelExecution -->
+      <class name="testNgPrograms.SuperNG">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testNgPrograms.SuperNG -->
+      <class name="testNgPrograms.Annotations3">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNgPrograms.Annotations3 -->
+      <class name="testNgPrograms.Actitime_DependsOn">
+        <methods>
+          <include name="openBrowserAndAppURL"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNgPrograms.Actitime_DependsOn -->
+      <class name="testNgPrograms.TestCaseDependency">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testNgPrograms.TestCaseDependency -->
+      <class name="testNgPrograms.GoogleApplicationWithBeforeAfter">
+        <methods>
+          <include name="login"/>
+          <include name="testVtigerHomePage"/>
+          <include name="testReportsPage"/>
+          <include name="startUp"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNgPrograms.GoogleApplicationWithBeforeAfter -->
+      <class name="testNgPrograms.AnnotationList">
+        <methods>
+          <include name="f8"/>
+          <include name="f7"/>
+          <include name="f4"/>
+          <include name="f9"/>
+          <include name="f3"/>
+          <include name="f2"/>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- testNgPrograms.AnnotationList -->
+      <class name="testNgPrograms.Annotations">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testNgPrograms.Annotations -->
+    </classes>
+  </test> <!-- testNgPrograms(failed) -->
+</suite> <!-- Failed suite [testNgPrograms] -->

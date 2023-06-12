@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testNgPrograms">
+  <test thread-count="5" name="testNgPrograms">
+    <classes>
+      <class name="testNgPrograms.AnnotationList"/>
+      <class name="testNgPrograms.TestParallelClassOne"/>
+      <class name="testNgPrograms.Sample4"/>
+      <class name="testNgPrograms.SetTestCaseOrder_Priority"/>
+      <class name="testNgPrograms.Sample3"/>
+      <class name="testNgPrograms.Sample2"/>
+      <class name="testNgPrograms.Sample1"/>
+      <class name="testNgPrograms.Actitime_Enabled"/>
+      <class name="testNgPrograms.Actitime_Timeout"/>
+      <class name="testNgPrograms.TestCaseExecutionControl"/>
+      <class name="testNgPrograms.Actitime_ExceptionAndTimeout"/>
+      <class name="testNgPrograms.VtigerApplicationTesting"/>
+      <class name="testNgPrograms.TestParallelClassTwo"/>
+      <class name="testNgPrograms.TestParallelExecution"/>
+      <class name="testNgPrograms.IncludeAndExcludeTestMethods"/>
+      <class name="testNgPrograms.Actitime_DependsOn"/>
+      <class name="testNgPrograms.SuperNG"/>
+      <class name="testNgPrograms.VtigerLogin"/>
+      <class name="testNgPrograms.FirstTestNgWebScript"/>
+      <class name="testNgPrograms.DataProviderExample"/>
+      <class name="testNgPrograms.TestCaseDependency"/>
+      <class name="testNgPrograms.GoogleApplicationWithBeforeAfterMethod"/>
+      <class name="testNgPrograms.Actitime_InvocationCount"/>
+      <class name="testNgPrograms.ClassLabelAnnotations"/>
+      <class name="testNgPrograms.GoogleApplicationWithBeforeAfterTest"/>
+      <class name="testNgPrograms.Annotations"/>
+      <class name="testNgPrograms.GoogleApplicationWithBeforeAfter"/>
+      <class name="testNgPrograms.Actitime_Priority"/>
+      <class name="testNgPrograms.GroupExamples"/>
+      <class name="testNgPrograms.ParallelExecutionOfMethods"/>
+      <class name="testNgPrograms.MultipleTestMethodInClass"/>
+      <class name="testNgPrograms.Annotations2"/>
+      <class name="testNgPrograms.Annotations3"/>
+    </classes>
+  </test> <!-- testNgPrograms -->
+</suite> <!-- testNgPrograms -->

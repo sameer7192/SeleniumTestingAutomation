@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Retry to execute failed testcase" >
+	<listeners>
+			        <listener class-name="runtimeRetryFailedTc.DemoTransformer" />
+			  </listeners>
+  <test name="Test 1">
+    <classes>
+      <class name="runtimeRetryFailedTc.Test001" />
+    </classes>
+  </test>
+</suite>

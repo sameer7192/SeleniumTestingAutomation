@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Sample Suite">
+  <test name="testing">
+  	<groups>
+      <run>
+        <include name="Smoke Test"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="testNgPrograms.GroupExamples" />
+    </classes>
+  </test>
+</suite>
